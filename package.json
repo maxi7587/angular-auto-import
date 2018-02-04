@@ -2,7 +2,7 @@
   "name": "angular-auto-import",
   "main": "./lib/angular-auto-import",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Auto import feature for your Angular 2+ projects in Atom",
   "keywords": [
   ],
   "activationCommands": {
