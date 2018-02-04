@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Import contructor's classes using angular-auto-import",
+        "command": "angular-auto-import:import"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "angular-auto-import",
+          "submenu": [
+            {
+              "label": "Import",
+              "command": "angular-auto-import:import"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
