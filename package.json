@@ -1,10 +1,9 @@
 {
   "name": "angular-auto-import",
   "main": "./lib/angular-auto-import",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Auto import feature for your Angular 2+ projects in Atom",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "angular-auto-import:import"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
