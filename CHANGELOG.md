@@ -1,3 +1,3 @@
 ## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+* Imports classes that are exported in the project
+* Automatically sets full path when importing
