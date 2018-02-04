@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "angular-auto-import:import"
   },
-  "repository": "https://github.com/atom/angular-auto-import",
+  "repository": "https://github.com/maxi7587/angular-auto-import",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
