@@ -1,3 +1,4 @@
 ## 0.1.0 - First Release
-* Imports classes that are exported in the project
+* Import classes that are exported in the project
+* Works with both `export class` and `export default class`
 * Automatically sets full path when importing
