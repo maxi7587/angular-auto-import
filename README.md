@@ -1,4 +1,4 @@
-# angular-auto-import BETA - Atom Package
+# angular-auto-import | BETA Atom Package
 
 Angular auto-import automatically imports existing classes (as long as they exist in your Atom's current working directory) in your Angular files.
 
