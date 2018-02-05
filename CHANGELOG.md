@@ -1,3 +1,7 @@
+## 0.1.5 - Use project path
+### Improve:
+- Now, the import statements use project paths instead of full paths
+
 ## 0.1.4 - Removed auto-scrolling
 ### Improve:
 - Removed auto scrolling
