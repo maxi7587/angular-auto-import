@@ -1,3 +1,7 @@
+## 0.1.7 - Use project path
+### Improve:
+- Decorator & class creator
+
 ## 0.1.5 - Use project path
 ### Improve:
 - Now, the import statements use project paths instead of full paths
