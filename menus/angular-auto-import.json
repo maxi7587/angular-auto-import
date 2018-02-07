@@ -4,6 +4,14 @@
       {
         "label": "Import contructor's classes using angular-auto-import",
         "command": "angular-auto-import:import"
+      },
+      {
+        "label": "Automatically import used angular decorators",
+        "command": "angular-auto-importdecorators:importdecorators"
+      },
+      {
+        "label": "Automatically create decorators",
+        "command": "angular-auto-import:createdecorator"
       }
     ]
   },
@@ -17,6 +25,14 @@
             {
               "label": "Import",
               "command": "angular-auto-import:import"
+            },
+            {
+              "label": "Import Decorators",
+              "command": "angular-auto-import:importdecorators"
+            },
+            {
+              "label": "Create Decorators",
+              "command": "angular-auto-import:createdecorator"
             }
           ]
         }

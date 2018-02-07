@@ -5,7 +5,9 @@
   "description": "Auto import feature for your Angular 2+ projects in Atom",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "angular-auto-import:import"
+    "atom-workspace": "angular-auto-import:import",
+    "atom-workspace": "angular-auto-import:importdecorators",
+    "atom-workspace": "angular-auto-import:createdecorator"
   },
   "repository": "https://github.com/maxi7587/angular-auto-import",
   "license": "MIT",
