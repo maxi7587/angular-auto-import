@@ -43,4 +43,4 @@ export class MyNewComponent {
 }
 ```
 
-*Note: the import statement is included only if it is needed
+*Note: the import statement is included only if it is needed.*
