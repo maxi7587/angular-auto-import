@@ -1,3 +1,8 @@
+## 0.1.8 - Complete clas creator
+### Improve:
+- Complete class creator supporting Components and Services
+- Auto-import created class to selected Module in the indicated array (providers, includes, exports, etc.)
+
 ## 0.1.7 - Use project path
 ### Improve:
 - Decorator & class creator
