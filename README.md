@@ -23,7 +23,19 @@ import { YourClassName } from 'src/app/some-directory/your-class-file';
 
 ## Decorator & class creator
 
-You can create a class by typing the decorator (Component, Injectable) followed by the name of the class, selecting both words and pressing `CTRL` + `ALT` + `y`. Here goes an example:
+You can create a class by typing some simple intructions in the correct order, selecting them and pressing `CTRL` + `ALT` + `y`.
+
+To create a component named MyNewComponent and include it in the imports array of the MyModule module, the intruction sentence would look like the following:
+
+*create component MyNewComponent in imports from module MyModule*
+
+Let's split it to understand how it works: 
+
+| create      | component | MyNewComponent | in | imports          | from | module | MyModule    |
+|-------------|-----------|----------------|----|------------------|------|--------|-------------|
+| instruction | type      | class name     |    | ngModule section |      |        | module name |
+
+Here goes an example:
 
 ```
 create component MyNewComponent in includes from module MyModule <= select it and press CTRL + ALT + y
