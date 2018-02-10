@@ -1,1 +1,1 @@
-create injectable jaja in providers from module Jajaja
+create injectable MyInjectable in providers from module MyModule
