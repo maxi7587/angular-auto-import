@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 
 ngModule([
-  providers:
+  providers:[
     someservice
+  ]
 ])
 export class MyModule {}
