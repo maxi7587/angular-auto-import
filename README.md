@@ -26,13 +26,15 @@ import { YourClassName } from 'src/app/some-directory/your-class-file';
 You can create a class by typing the decorator (Component, Injectable) followed by the name of the class, selecting both words and pressing `CTRL` + `ALT` + `y`. Here goes an example:
 
 ```
-component MyNewComponent <= select it and press CTRL + ALT + y
+create component MyNewComponent in includes from module MyModule <= select it and press CTRL + ALT + y
 ```
 
-This will result in:
+This will chenge two files:
+
+### Your actual working file
 
 ```javascript
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'; <= added only if needed
 
 @Component() {
   selector: your-component-selector
@@ -43,4 +45,16 @@ export class MyNewComponent {
 }
 ```
 
-*Note: the import statement is included only if it is needed.*
+### The module in wich you want to incule the component/service
+
+```javascript
+import { MyNewComponent } from 'app/module-folder/component-folder/component-file-name'; <= added only if needed
+
+@NgModule({
+  imports: [
+    MyNewComponent <= adds the component to the selected arrays in the ngModule decorator
+    ...
+  ]
+})
+export class MyModule { }
+```
