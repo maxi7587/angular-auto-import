@@ -21,6 +21,27 @@ import { Component } from '@angular/core';
 import { YourClassName } from 'src/app/some-directory/your-class-file';
 ```
 
+## Decorator auto-import
+
+You can automatically import all the Angular decorators used in the current file by pressing `CTRL` + `ALT` + `u`.
+
+*Example:*
+
+If you use it in a file with the following class:
+
+```javascript
+@Component()
+export class MyClass implements OnInit {
+  ...
+}
+```
+
+The following import statement will be added at the top of the file:
+
+```javascript
+import { Component, OnInit } from '@angular/core';
+```
+
 ## Decorator & class creator
 
 You can create a class by typing some simple intructions in the correct order, selecting them and pressing `CTRL` + `ALT` + `y`.
@@ -29,7 +50,7 @@ To create a component named MyNewComponent and include it in the imports array o
 
 *create component MyNewComponent in imports from module MyModule*
 
-Let's split it to understand how it works: 
+Let's split it to understand how it works:
 
 | create      | component | MyNewComponent | in | imports          | from | module | MyModule    |
 |-------------|-----------|----------------|----|------------------|------|--------|-------------|
