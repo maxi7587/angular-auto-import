@@ -1,7 +1,7 @@
 {
   "name": "angular-auto-import",
   "main": "./lib/angular-auto-import",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Auto import feature for your Angular 2+ projects in Atom",
   "keywords": [],
   "repository": "https://github.com/maxi7587/angular-auto-import",
