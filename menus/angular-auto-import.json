@@ -7,7 +7,7 @@
       },
       {
         "label": "Automatically import used angular decorators",
-        "command": "angular-auto-importdecorators:importdecorators"
+        "command": "angular-auto-import:importdecorators"
       },
       {
         "label": "Automatically create decorators",
