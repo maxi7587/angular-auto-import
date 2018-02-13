@@ -1,4 +1,4 @@
-## 0.2.1 - Improved auto-import functions and some fixes
+## 0.3.1 - Improved auto-import functions and some fixes
 ### Improve:
 - Improved auto-import function to write the statements only if they are needed
 - Fixed the package to make all the keybindings work without having to use a starter function
