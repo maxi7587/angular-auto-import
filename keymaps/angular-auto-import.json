@@ -2,6 +2,6 @@
   "atom-workspace": {
     "ctrl-alt-i": "angular-auto-import:import",
     "ctrl-alt-u": "angular-auto-import:importdecorators",
-    "ctrl-alt-y": "angular-auto-import:createdecorator"
+    "ctrl-alt-y": "angular-auto-import:createclass"
   }
 }
