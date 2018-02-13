@@ -42,7 +42,7 @@ The following import statement will be added at the top of the file:
 import { Component, OnInit } from '@angular/core';
 ```
 
-## Decorator & class creator
+## Class creator
 
 You can create a class by typing some simple intructions in the correct order, selecting them and pressing `CTRL` + `ALT` + `y`.
 
