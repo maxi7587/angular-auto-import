@@ -69,10 +69,10 @@ This will chenge two files:
 ```javascript
 import { Component } from '@angular/core'; <= added only if needed
 
-@Component() {
+@Component({
   selector: your-component-selector
   templateUrl: yourComponentView.html
-}
+})
 export class MyNewComponent {
 
 }
