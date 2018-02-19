@@ -30,7 +30,10 @@ You can automatically import all the Angular decorators used in the current file
 If you use it in a file with the following class:
 
 ```javascript
-@Component()
+@Component({
+  selector: your-component-selector
+  templateUrl: yourComponentView.html
+})
 export class MyClass implements OnInit {
   ...
 }
